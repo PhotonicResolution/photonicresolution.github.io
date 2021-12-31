@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang= "es-MX">
+    <head>
+
+        <title>Travel Assesory Guanajuato</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Travel Assesory Gto.">
+        <meta name="keywords" content="">
+        <meta name="description" content="">
+        <meta name="viewport" content="width-device=width, initial-scale=1.0">
+        <link rel="icon" href="images/favicon.png" type="image/x-icon">
+        <link rel="stylesheet" href="elements.css">
+        <link rel="stylesheet" href="@media.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Arimo&family=Open+Sans&family=Pacifico&display=swap">
+
+    </head>
+    <body>
+
+        <div class="header" id="topnav">
+            <div id="menu" onclick="menu_click();"><img src="images/menu.ico" alt="Menú"></div>
+            <div class="name"><strong>
+                <span style="color:#0d06d7">Travel</span>
+                <span style="color:#eeeeee">Assesory</span>
+                <span style="color:#ea1e27">Guanajuato</span>
+            </strong></div>
+            <div id="navbar">
+                <span class="navbar_item" onclick="navbarTarget('cover');">Inicio</span>
+                <span class="navbar_item" onclick="navbarTarget('about_us');">Nosotros</span>
+                <span class="navbar_item" onclick="navbarTarget('services');">Servicios</span>
+                <span class="navbar_item" onclick="navbarTarget('contacts');">Contáctanos</span>
+            </div>
+        </div>
+
+        <div id="occult_menu"></div>
+
+        <div class="parallax" id="cover"><strong>
+            <div class="caption" id="top" title="¡Asesoría en tus Tramites!">¡Asesoría en</div>
+            <div class="caption" id="bottom" title="¡Asesoría en tus Tramites!">tus Tramites!</div>
+        </strong></div>
+
+        <div class="info" id="about_us">
+            <div class="info_container">
+                <h1>Acerca de Nosotros</h1>
+                <p>Aquí en Travel Assesory Gto. te apoyamos con la asesoría necesaria de acuerdo a tu estilo de vida, acoplándonos a tus horarios, apoyándote en todo momento y brindándote toda la información requerida para que tus planes de viaje se vuelvan realidad.</p>
+                
+                <p>Aunque de comienzos recientes, hemos ayudado a una variedad de clientes de distintos fondos desde 2020 a cruzar la frontera de manera legal y apropiada.</p>
+            </div>
+        </div>
+
+        <div class="parallax" id="travel"></div>
+        
+        <div class="info" id="services">
+            <div class="info_container">
+                <h1>Servicios</h1>
+                <p>Ofrecemos capacitación y asesoría en los siguientes procesos:</p>
+                <ul>
+                    <li>Pasaporte para la U.S.A</li>
+                    <li>Visa para la U.S.A.</li>
+                    <li>Permisos de viaje</li>
+                </ul>
+                <p>La primer consulta <strong>es grátis</strong>, en la cuál se identificaran sus necesidades y la forma en la que trabajaremos con usted.</p>
+                <p>Todas las subsecuentes consultas se realizarán a un precio fijo, decidido en la primer consulta.</p>
+            </div>
+        </div>
+
+        <div class="parallax" id="passport"></div>
+
+        <div class="info" id="contacts">
+            <div class="info_container">
+                <h1>Contáctanos</h1>
+                <div class="contact_list">
+                        <p>Sí requieres más información, puedes contactanos mediante:</p>
+                        <p class="social_logo"><img src="images/WhatsApp-logo.png"></p>
+                        <p class="social_description"> WhatsApp: +52 33 1157 7142</p>
+                        <p class="social_logo"><img src="images/gmail_logo_transparent_small.png"></p>
+                        <p class="social_description"> Gmail: travelasesory@gmail.com</p>
+                        <p class="social_logo"><img src="images/fb_icon_100x100.png"></p>
+                        <p class="social_description"> Facebook: <a href="https://m.facebook.com/Travel-Assesory-105498901424471/?ref=bookmarks">Travel Asseosry</a></p>
+                        <p>Estamos disponibles de Lunes a Viernes, de 10:00 am a 03:00 pm</p>
+                </div>
+                <div class="map">
+                    <p>O visita nuestras oficinas ubicadas en Avenida Hidalgo #26-A, La Sauceda, Guanajuato</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="parallax" id="call"></div>
+
+        <div class="footer">
+            <span>Travel Assesory Guanajuato 2021. Sistema de reservaciones vendrá pronto.</span>
+        </div>
+
+        <script src="main.js" type="text/javascript"></script>
+        <script src="navbarInteractions.js" type="text/javascript"></script>
+
+    </body>
+</html>

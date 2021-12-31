@@ -1,0 +1,141 @@
+@media only screen and (min-width:500px)
+{
+    .footer{font-size: 15px}
+    #top{top: 30%}
+    #bottom{top: 47%}
+}
+
+@media only screen and (min-width:650px)
+{
+    #menu{top:14px}
+    #menu img{width:26px}
+    .header{height: 50px}
+    .name{
+        font-size: 32px;
+        letter-spacing: 3px;
+        top: 25px;
+        padding-left: 6px
+    }
+    #navbar{
+        top: 50px;
+        font-size: 22px
+    }
+    .info{text-align: justify}
+    .caption{font-size: 60px; letter-spacing: 4px}
+    .social_logo{margin-left: -32%;}
+    .social_description{margin-left: 35vw;}
+}
+
+@media only screen and (min-width:800px)
+{
+    #cover{background-image: url("images/cover.png")}
+    .info{padding: 18px 50px 18px 50px;}
+    .first-letter{margin-left: 5%;}
+    .social_logo{margin-left: -28%;}
+}
+
+@media only screen and (min-width:900px)
+{
+    h1{font-size: 2em}
+    p, li{font-size: 1.2em}
+    body
+    {
+        background-image: url('images/cover.png');
+        background-attachment: fixed; 
+        background-repeat: no-repeat;
+    }
+    #cover
+    {
+        display: block;
+        background:none; 
+        height: 100%;
+    }
+    .name
+    {
+        right: 0; 
+        float: left
+    }
+    #menu, #occult_menu{display: none}
+    #navbar
+    {
+        font-size: 16px; 
+        right: 0; 
+        top:8px; 
+        width: auto; 
+        height: auto; 
+        background-color: transparent; 
+        flex-direction: row; 
+        justify-content: flex-end
+    }
+    #navbar.display, #navbar.occult{right: 0;}
+    .navbar_item{padding: 10px 15px 9px 15px}
+    .parallax{display: none}
+    .info
+    {
+        background-color: transparent;
+        padding: 0 12vw 0 12vw;
+    }
+    .info_container
+    {
+        background-color: rgb(233, 233, 233);
+        padding: 10px 4vw 10px 4vw;
+    }
+    .social_logo
+    {
+        text-align: left;
+        margin-left: 2%;
+    }
+    .social_description{margin-left: 5vw;}    
+}
+
+
+@media only screen and (min-width:1000px){
+    #navbar{font-size: 20px; top:6px}
+}
+
+
+@media only screen and (min-width:800px) and (min-height:1000px){
+    h1{font-size: 3em}
+    p, li{font-size: 2em}
+    .header{height:10vw}
+    #menu
+    {
+        top:3.2vw;
+        display: inline
+    }
+    #menu img{width: 4vw;}
+    .name
+    {font-size: 3em;
+        letter-spacing: 2px; 
+        top: 5vw; 
+        padding-left: 0; 
+        float: right;
+    }
+    #navbar
+    {
+        top: 9.8vw; 
+        width: 40%; 
+        height: 2000px; 
+        font-size:3vw; 
+        letter-spacing:.1vw; 
+        right: 100%;
+        justify-content: flex-start; 
+        flex-direction: column;
+    }
+    #navbar.display{right: 60%}
+    #navbar.occult{right:100%}
+    .navbar_item{padding: 20px 15px 19px 15px}
+    #occult_menu
+    {
+        top: 8vw;
+        display:block
+    }
+    .caption{font-size: 10vw}
+    .footer{font-size:  2vw}
+    #bottom{top:42%}
+    #cover{background-image: url(images/cover_small.png)}
+}
+
+@media only screen and (min-width:1200px) and (min-height:1200px){
+    #bottom{top:50%}
+}
